@@ -46,7 +46,7 @@
     +data(outcome("RelSat2_Light",60,5,100));
 
     +data(outcome("DataCen_Heavy",20,60,100));
-    +data(outcome("DataCen_Light",50,5,100))
+    +data(outcome("DataCen_Light",50,5,100));
     #Thread.sleep(#asInteger(10000))
     .
 
@@ -70,7 +70,7 @@
     +data(outcome("RelSat2_Light",60,5,100));
 
     +data(outcome("DataCen_Heavy",1,95,100));
-    +data(outcome("DataCen_Light",50,5,100))
+    +data(outcome("DataCen_Light",50,5,100));
 
     #Thread.sleep(#asInteger(10000))
     .

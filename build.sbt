@@ -11,12 +11,12 @@ idePackagePrefix := Some("nl.uva.cci")
 
 organization := "nl.uva.cci"
 
-resolvers += ("agent-script" at "http://145.100.135.102:8081/repository/agent-script/").withAllowInsecureProtocol(true)
+//resolvers += ("agent-script" at "http://145.100.135.102:8081/repository/agent-script/").withAllowInsecureProtocol(true)
 unmanagedJars in Compile += file("assets/json-simple-1.1.1.jar")
 libraryDependencies += "eflint" %% "java-server" % "0.1.11"
 
-libraryDependencies += "nl.uva.sne.cci" % "agentscript-grounds_2.13" % "0.42"
-libraryDependencies += "nl.uva.sne.cci" % "agentscript-commons_2.13" % "0.42"
+libraryDependencies += "io.github.mostafamohajeri" % "agentscript-grounds_2.13" % "0.47"
+libraryDependencies += "io.github.mostafamohajeri" % "agentscript-commons_2.13" % "0.47"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % Test
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-testkit-typed" % AkkaVersion % Test
