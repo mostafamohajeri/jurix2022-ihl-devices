@@ -10,9 +10,12 @@ To run the code you will need
 
 To compile, after installing eFLINT and eFLINT's java API, go to the root directory and run `sbt compile`
 
+## Scenario
+The full scenario description can be found [here](/Can%20a%20military%20autonomous%20device%20follow%0AInternational%20Humanitarian%20Law%3F.pdf) 
+
 ## Implementation
 
-The two examples are implemented in two test suites in `/src/test/scala`
+The two examples are implemented in two test suites in `/src/test/scala`.
 
 The example in `IHLService.scala` utilizes eFLINT as normative reasoner, the norm file for IHL rules is in `/src/main/eflint/ihl.eflint`. This example also utilizes three agents as:
 * `ihl_device.asl`
