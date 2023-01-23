@@ -75,7 +75,7 @@ val logger = PlantUMLCommunicationLogger()
     "init" in {
       val prob = testKit.createTestProbe[IMessage]()
       mas.yellowPages.getAgent("IHLScenario").get.asInstanceOf[AkkaMessageSource].address()  ! GoalMessage(
-        StructTerm("run3",Seq()),AkkaMessageSource(prob.ref)
+        StructTerm("run2",Seq()),AkkaMessageSource(prob.ref)
       )
 
       val message = prob.receiveMessage();
